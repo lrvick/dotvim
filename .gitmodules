@@ -1,36 +1,36 @@
 [submodule ".vim/bundle/vim-pathogen"]
-	path = .vim/bundle/vim-pathogen
+	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
 [submodule ".vim/bundle/delmitmate"]
-	path = .vim/bundle/delmitmate
+	path = bundle/delmitmate
 	url = git://github.com/Raimondi/delimitMate.git
 [submodule ".vim/bundle/closetag"]
-path = .vim/bundle/closetag
+path = bundle/closetag
 	url = git://github.com/docunext/closetag.vim.git
 [submodule ".vim/bundle/supertab"]
-	path = .vim/bundle/supertab
+	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
 [submodule ".vim/bundle/solarized"]
-	path = .vim/bundle/solarized
+	path = bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule ".vim/bundle/vim-indent-guides"]
-	path = .vim/bundle/vim-indent-guides
+	path = bundle/vim-indent-guides
 	url = git://github.com/nathanaelkane/vim-indent-guides.git
 [submodule ".vim/bundle/gundo"]
-	path = .vim/bundle/gundo
+	path = bundle/gundo
 	url = https://github.com/sjl/gundo.vim
 [submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
+	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule ".vim/bundle/fugitive"]
-	path = .vim/bundle/fugitive
+	path = bundle/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
 [submodule ".vim/bundle/tagbar"]
-	path = .vim/bundle/tagbar
+	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
 [submodule ".vim/bundle/Conque-Shell"]
-	path = .vim/bundle/Conque-Shell
-	url = https://lrvick@github.com/lrvick/Conque-Shell.git
+	path = bundle/Conque-Shell
+	url = https://github.com/lrvick/Conque-Shell.git
 [submodule ".vim/bundle/syntastic"]
-	path = .vim/bundle/syntastic
+	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
