@@ -34,3 +34,6 @@ path = bundle/closetag
 [submodule ".vim/bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/Command-T"]
+	path = bundle/Command-T
+	url = https://github.com/vim-scripts/Command-T.git

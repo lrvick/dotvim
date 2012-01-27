@@ -13,6 +13,7 @@ setup, is the only IDE I use. (Yes, I just called vim an IDE. Deal.)
 ## Current Features ##
 
   * NerdTree - nice tree-view file browsing [F2]
+  * Command-T - fuzzy searching to quickly switch files [Meta-T]
   * Conque-Shell - built in terminals [F3] & [F4]
   * Gundo - undo history managment [F5]
   * Tagbar - easily browse through a programs structure [F9]
