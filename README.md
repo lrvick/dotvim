@@ -8,7 +8,7 @@
 
 So let's face it. Stock vim on most machines is pretty painful for a seasoned
 programmer. Things like managing history, proper language indention, syntax
-checking auto complete etc, are just not there. To that end, here is my setup
+checking, auto complete etc, are just not there. To that end, here is my setup
 that I have lovingly refined though many years of vimming. Vim, with this
 setup, is the only IDE I use. (Yes, I just called vim an IDE. Deal.)
 
@@ -46,6 +46,21 @@ setup, is the only IDE I use. (Yes, I just called vim an IDE. Deal.)
     ```bash
     echo "runtime vimrc" > ~/.vimrc
     ```
+
 ## Notes ##
 
-    Questions/Comments? You can find me on IRC: lrvick @ irc://irc.freenode.net
+  Use at your own risk. You may be eaten by a grue.
+
+  Questions/Comments?
+
+  You can find me on the web via:
+
+  [Email](mailto://lance@lrvick.net) |
+  [Blog](http://lrvick.net) |
+  [Twitter](http://twitter.com/lrvick) |
+  [Facebook](http://facebook.com/lrvick) |
+  [Google+](http://plus.google.com/109278148620470841006) |
+  [YouTube](http://youtube.com/lrvick) |
+  [Last.fm](http://last.fm/user/lrvick) |
+  [LinkedIn](http://linkedin.com/in/lrvick) |
+  [Github](http://github.com/lrvick/)
