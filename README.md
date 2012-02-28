@@ -2,10 +2,12 @@
 
 <http://github.com/lrvick/dotvim>
 
+![Screenshot](http://github.com/lrvick/dotvim/raw/master/screenshot.png)
+
 ## About ##
 
 So let's face it. Stock vim on most machines is pretty painful for a seasoned
-programmer. Thing like managing history, proper language indention, syntax
+programmer. Things like managing history, proper language indention, syntax
 checking auto complete etc, are just not there. To that end, here is my setup
 that I have lovingly refined though many years of vimming. Vim, with this
 setup, is the only IDE I use. (Yes, I just called vim an IDE. Deal.)
