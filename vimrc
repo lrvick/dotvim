@@ -16,6 +16,7 @@ set textwidth=79
 set colorcolumn=79
 set spell spelllang=en_us
 set foldmethod=marker
+set rnu
 
 "Enable mouse for selecting/changing windows etc.
 set mouse=a
