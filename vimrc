@@ -18,6 +18,15 @@ set spell spelllang=en_us
 set foldmethod=marker
 set rnu
 
+nmap <Left> <<
+nmap <Right> >>
+vmap <Left> <gv
+vmap <Right> >gv
+nmap <Up> [e
+nmap <Down> ]e
+vmap <Up> [egv
+vmap <Down> ]egv
+
 "Enable mouse for selecting/changing windows etc.
 set mouse=a
 
