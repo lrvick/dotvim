@@ -15,6 +15,17 @@ set shiftwidth=4
 set textwidth=79
 set colorcolumn=79
 set spell spelllang=en_us
+set foldmethod=marker
+set rnu
+
+nmap <Left> <<
+nmap <Right> >>
+vmap <Left> <gv
+vmap <Right> >gv
+nmap <Up> [e
+nmap <Down> ]e
+vmap <Up> [egv
+vmap <Down> ]egv
 
 "Enable mouse for selecting/changing windows etc.
 set mouse=a
@@ -36,6 +47,12 @@ let g:solarized_termcolors=256
 let g:solarized_contrast="high"
 let g:solarized_visibility="high"
 colorscheme solarized
+
+"rainbow parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
 "Persistant undo
 set undodir=~/.vim/undodir
