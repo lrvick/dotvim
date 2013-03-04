@@ -31,12 +31,12 @@ vmap <Down> ]egv
 set mouse=a
 
 "Highlight end of line whitespace.
-set list
+"set list
 set listchars=trail:.
 
 "Syntastic syntax error checking options
 let g:syntastic_enable_signs=1
-let g:syntastic_auto_jump=1
+let g:syntastic_auto_jump=0
 let g:syntastic_auto_loc_list=1
 let g:syntastic_jsl_conf="~/.vim/config/jsl.conf"
 

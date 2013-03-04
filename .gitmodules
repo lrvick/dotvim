@@ -49,3 +49,12 @@ path = bundle/closetag
 [submodule "bundle/unimpaired"]
 	path = bundle/unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/jade"]
+	path = bundle/jade
+	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "bundle/stylus"]
+	path = bundle/stylus
+	url = https://github.com/wavded/vim-stylus.git
+[submodule "bundle/editorconfig"]
+	path = bundle/editorconfig
+	url = git://github.com/editorconfig/editorconfig-vim.git
