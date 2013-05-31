@@ -37,8 +37,7 @@ setup, is the only IDE I use. (Yes, I just called Vim an IDE. Deal.)
 
     ```bash
     cd ~/.vim
-    git submodule init
-    git submodule update
+    git submodule update --init
     ```
 
 3. Install dummy vimrc file
