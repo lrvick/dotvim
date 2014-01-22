@@ -38,7 +38,9 @@ set listchars=trail:.
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_jump=0
 let g:syntastic_auto_loc_list=1
-let g:syntastic_jsl_conf="~/.vim/config/jsl.conf"
+"let g:syntastic_jsl_conf="~/.vim/config/jsl.conf"
+let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_javascript_jshint_conf = '~/.vim/config/jshint.json'
 
 "Solarized color scheme
 set background=dark
@@ -64,9 +66,12 @@ set undoreload=10000
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_start_level=2
 let g:indent_guides_guide_size=1
-let g:indent_guides_auto_colors = 0
+let g:indent_guides_auto_colors = 1
 hi IndentGuidesOdd  ctermbg=236
 hi IndentGuidesEven ctermbg=233
+hi Normal ctermbg=none
+
+let g:solarized_termtrans=1
 
 "Gundo
 nnoremap <silent> <F5> :GundoToggle<CR>
