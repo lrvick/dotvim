@@ -82,7 +82,29 @@ map <silent> <F2> :NERDTreeToggle<CR>
 "Tagbar
 nnoremap <silent> <F9> :TagbarToggle<CR>
 
-"Status line of awesome
+"Paren colors
+
+
+"Statub line of awesome
+
+let g:rbpt_colorpairs = [ 
+    \  ['brown', 'RoyalBlue3'],
+    \  ['Darkblue', 'SeaGreen3'],
+    \  ['darkgray', 'DarkOrchid3'],
+    \  ['darkgreen', 'firebrick3'],
+    \  ['darkcyan', 'RoyalBlue3'],
+    \  ['darkred', 'SeaGreen3'],
+    \  ['darkmagenta', 'DarkOrchid3'],
+    \  ['brown', 'firebrick3'],
+    \  ['gray', 'RoyalBlue3'],
+    \  ['darkmagenta', 'DarkOrchid3'],
+    \  ['Darkblue', 'firebrick3'],
+    \  ['darkgreen', 'RoyalBlue3'],
+    \  ['darkcyan', 'SeaGreen3'],
+    \  ['darkred', 'DarkOrchid3'],
+    \  ['red', 'firebrick3'], 
+    \  ]
+
 hi User1 ctermbg=237 ctermfg=248
 hi User2 ctermbg=red   ctermfg=blue
 hi User3 ctermbg=blue  ctermfg=green
