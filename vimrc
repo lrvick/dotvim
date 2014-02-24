@@ -79,6 +79,11 @@ nnoremap <silent> <F5> :GundoToggle<CR>
 "Nerdtree
 map <silent> <F2> :NERDTreeToggle<CR>
 
+"FuzzyFinder
+map <silent> <C-t> :FufCoverageFile<CR>
+let g:fuf_file_exclude='\v\~$|\.(o|exe|dll|bak|orig|sw[po])$|(^|[/\\])\.(hg|git|bzr)($|[/\\])'
+
+
 "Tagbar
 nnoremap <silent> <F9> :TagbarToggle<CR>
 
