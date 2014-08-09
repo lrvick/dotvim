@@ -1,4 +1,4 @@
-"Load Pathogen and all bundles
+""Load Pathogen and all bundles
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
@@ -112,3 +112,8 @@ function! FileSize()
     return (bytes / 1024) . "K"
   endif
 endfunction
+
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+
