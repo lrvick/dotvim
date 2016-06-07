@@ -58,3 +58,6 @@ path = bundle/closetag
 [submodule "bundle/L9"]
 	path = bundle/L9
 	url = https://github.com/vim-scripts/L9.git
+[submodule "bundle/systemd-syntax"]
+	path = bundle/systemd-syntax
+	url = https://github.com/Matt-Deacalion/vim-systemd-syntax.git
