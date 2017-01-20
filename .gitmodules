@@ -64,3 +64,6 @@ path = bundle/closetag
 [submodule "bundle/bats"]
 	path = bundle/bats
 	url = https://github.com/rosstimson/bats.vim
+[submodule "bundle/jsonnet"]
+	path = bundle/jsonnet
+	url = https://github.com/google/vim-jsonnet.git
