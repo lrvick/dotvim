@@ -154,7 +154,10 @@ function! FileSize()
   endif
 endfunction
 
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
-
+let g:powerline_pycmd="py3"
+let powerlinecmd=substitute(system("which powerline"), '\n\+$', '', '')
+if !empty(glob(powerlinecmd))
+    python3 from powerline.vim import setup as powerline_setup
+    python3 powerline_setup()
+    python3 del powerline_setup
+endif
