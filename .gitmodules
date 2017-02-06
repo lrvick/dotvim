@@ -61,3 +61,9 @@ path = bundle/closetag
 [submodule "bundle/systemd-syntax"]
 	path = bundle/systemd-syntax
 	url = https://github.com/Matt-Deacalion/vim-systemd-syntax.git
+[submodule "bundle/bats"]
+	path = bundle/bats
+	url = https://github.com/rosstimson/bats.vim
+[submodule "bundle/jsonnet"]
+	path = bundle/jsonnet
+	url = https://github.com/google/vim-jsonnet.git
