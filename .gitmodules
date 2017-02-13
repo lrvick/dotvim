@@ -67,3 +67,6 @@ path = bundle/closetag
 [submodule "bundle/jsonnet"]
 	path = bundle/jsonnet
 	url = https://github.com/google/vim-jsonnet.git
+[submodule "bundle/terraform"]
+	path = bundle/terraform
+	url = https://github.com/hashivim/vim-terraform.git
